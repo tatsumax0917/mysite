@@ -1,0 +1,40 @@
+#company-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.hero::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  background-image: url("../images/main-img.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.card h5, p {
+  position: relative;
+  z-index: 1000;
+}
+
+.card::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}/*# sourceMappingURL=style.css.map */
