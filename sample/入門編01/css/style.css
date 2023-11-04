@@ -1,0 +1,55 @@
+@charset "urf-8";
+body {
+  /* background-color: red; */
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  width: 80ox;
+  height: 30px;
+}
+
+.header ul {
+  display: flex;
+  height: 100%;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.hero{
+  background-image: url("../images/img1.jpg");
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.contents {
+  text-align: center;
+}
+.contents-about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.contents-title {
+  width: 100px;
+}
+
+.card{
+  margin-bottom: 20px;
+}
