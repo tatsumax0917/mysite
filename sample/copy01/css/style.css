@@ -1,0 +1,41 @@
+.test {
+  color: rgb(108 117 125);
+}
+.test:hover {
+  background-color: rgb(108 117 125);
+  color: white;
+}
+
+
+.separate-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.separate-line::before,
+.separate-line::after {
+  border-top: 2px solid #e0e3e7;
+  content: "";
+  width: 43%;
+}
+.separate-line::before {
+  margin-right: auto;
+}
+.separate-line::after {
+  margin-left: auto;
+}  
+
+.sns-link-group a {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.top-icon {
+  font-size: 40px;
+  margin-bottom:120px;
+  margin-top: 30px;
+}
