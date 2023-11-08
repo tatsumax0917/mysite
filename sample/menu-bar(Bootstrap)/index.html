@@ -43,71 +43,63 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="offcanvas offcanvas-end text-bg-dark w-100"
+            class="offcanvas offcanvas-end text-bg-dark w-100 bg-opacity-75"
             tabindex="-1"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
               <button
-                type="button"
-                class="btn-close btn-close-white"
+                type="button "
+                class="btn-close btn-close-white ms-auto"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="offcanvas-body text-center  w-50 mx-auto">
+            <div class="offcanvas-body text-center w-50 mx-auto">
               <ul class="navbar-nav justify-content-end flex-grow-1 px-3 ">
+                
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">トップ</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">事業内容</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    商品一覧
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark text-center">
-                    <li>
-                      <a class="dropdown-item" href="#">化粧品</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">香水</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">その他</a>
-                    </li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">商品一覧</a>
                 </li>
-              </ul>
-
-              <!-- 検索ボックス -->
-              <!-- <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                > 
-                <button class="btn btn-success" type="submit">Search</button>
-                -->
-              </form>
+                  
             </div>
           </div>
         </div>
       </nav>
     </header>
+
+    <section class="top-image">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/img1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/img2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/img3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    </section>
+
     <script src="
     https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
     "></script>
