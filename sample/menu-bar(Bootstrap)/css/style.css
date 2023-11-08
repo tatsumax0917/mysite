@@ -7,3 +7,8 @@
 .top-image {
   margin-top: 56px;
 }
+.top-image img{
+  min-height: 400px;
+  /* height: 100vh; */
+  object-fit: cover;
+}
