@@ -27,8 +27,13 @@
       <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">SAMPLE COMPANY</a>
+          <ul class="text-light d-sm-flex d-none">
+            <li class="mx-2">トップ</li>
+            <li class="mx-2">事業内容</li>
+            <li class="mx-2">商品一覧</li>
+          </ul>
           <button
-            class="navbar-toggler btn-border-none"
+            class="navbar-toggler btn-border-none d-sm-none"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasDarkNavbar"
@@ -38,7 +43,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="offcanvas offcanvas-end text-bg-dark"
+            class="offcanvas offcanvas-end text-bg-dark w-100"
             tabindex="-1"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
@@ -52,7 +57,7 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="offcanvas-body text-center">
+            <div class="offcanvas-body text-center  w-50 mx-auto">
               <ul class="navbar-nav justify-content-end flex-grow-1 px-3 ">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">トップ</a>
@@ -70,7 +75,7 @@
                   >
                     商品一覧
                   </a>
-                  <ul class="dropdown-menu dropdown-menu-dark text-center w-50 mx-auto">
+                  <ul class="dropdown-menu dropdown-menu-dark text-center">
                     <li>
                       <a class="dropdown-item" href="#">化粧品</a>
                     </li>
@@ -86,14 +91,17 @@
                   </ul>
                 </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
+
+              <!-- 検索ボックス -->
+              <!-- <form class="d-flex mt-3" role="search">
                 <input
                   class="form-control me-2"
                   type="search"
                   placeholder="Search"
                   aria-label="Search"
-                >
+                > 
                 <button class="btn btn-success" type="submit">Search</button>
+                -->
               </form>
             </div>
           </div>
