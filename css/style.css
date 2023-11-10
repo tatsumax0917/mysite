@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.hero {
+  background-image: url("../images/img1.jpg");
+  height: calc(100vh - 40px);
+  margin-top: 40px;
+}
+
+.hover-effect-contents {
+  border: solid 1px black;
+}
